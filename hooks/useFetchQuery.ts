@@ -1,7 +1,7 @@
 import { useInfiniteQuery, useQuery } from "@tanstack/react-query";
 import type { Colors } from "@/constants/Colors";
 
-const endpoint = "https://pokeapi.co/api/v3";
+const endpoint = "https://pokeapi.co/api/v2";
 
 type API = {
   "/pokemon?limit=21": {
